@@ -45,6 +45,12 @@ void writeMsg(const String& message) {
 
 void setup() {
   Serial.begin(115200);
+
+  if (!SD.begin(SD_SS, SPI_HALF_SPEED)) {
+    Serial.println("Reinizializzazione della SD fallita!");
+    return;  // Esce se la SD non può essere inizializzata
+  } 
+  
   pinMode(LED_PIN, OUTPUT);  // Imposta il pin del LED come output
   u8g2.begin(); // Inizializza il display
   Serial.println("Delaying..."); 
