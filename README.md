@@ -45,7 +45,7 @@ The project utilizes the following libraries:
    You can install these libraries using the Arduino Library Manager or manually.
 
 3. **Upload the Sketch**:
-   - Open the `wifi_network_scanner.ino` file in the Arduino IDE.
+   - Open the `warfly.c` file in the Arduino IDE.
    - Connect your ESP8266 to your computer.
    - Select the correct board and port in the Arduino IDE.
    - Upload the sketch to the ESP8266.
