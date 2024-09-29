@@ -32,7 +32,7 @@ The project utilizes the following libraries:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/warflying_esp8266.git
+    git clone https://github.com/emp3r0r7/warflying_esp8266
     ```
 
 2. **Install Required Libraries**:
