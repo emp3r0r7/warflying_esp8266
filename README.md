@@ -33,7 +33,6 @@ The project utilizes the following libraries:
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/yourusername/warflying_esp8266.git
-    cd wifi-network-scanner
     ```
 
 2. **Install Required Libraries**:
